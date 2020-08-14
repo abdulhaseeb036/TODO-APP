@@ -9,9 +9,36 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link src="https://fontawesome.com/v4.7.0/icons/"/> 
+    <link src="https://fontawesome.com/v4.7.0/icons/"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  
     <link rel="stylesheet" href="style.css">
+
+    <!-- firebase database links -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD8pxejWZ33yFbz9OQ0OjQ97youkom3Sn4",
+    authDomain: "todo-app-44ed3.firebaseapp.com",
+    databaseURL: "https://todo-app-44ed3.firebaseio.com",
+    projectId: "todo-app-44ed3",
+    storageBucket: "todo-app-44ed3.appspot.com",
+    messagingSenderId: "603159070990",
+    appId: "1:603159070990:web:0cf09145c8bc8cc3cb6f5f",
+    measurementId: "G-SHC80PFEQ8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 </head>
 <body>
     <div class="head" id="head">

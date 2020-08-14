@@ -1,7 +1,7 @@
 /* AUTHOR : HASEEB ALAM RAFIQ */
 /* AUTHOR : HASEEB ALAM RAFIQ */
 html , body {
-    background-color: black;
+    background-color: #008736;
     background-attachment: fixed;
     background-repeat: no-repeat;
     overflow-x:hidden;
@@ -21,15 +21,14 @@ html , body {
 }
 
 .h1 {
-    background-color: black;
+    background-color: #008736;
     
-
 
 }
 
 .main {
     text-align:center;
-    background-color: black;
+    background-color: #008736;
     color: white;
     font-size:larger;
     font-weight:bolder;
@@ -45,26 +44,42 @@ html , body {
 .ip {
     border: none;
     background-color: white;
-    border-bottom: blue solid 5px;
+    border-bottom: #fff solid 3px;
     font-size: large;
     font-weight: lighter;
     font-family: sans-serif;
     margin: 4px;
-
-    
+    background-color: transparent;
+    outline:none;
+    color: white; 
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+}  
 .addbt {
     text-align:center;
-    background-color: black;
+    background-color: transparent;
     border:none;
     cursor: pointer;
+    outline: none;
 
 
 }
 .deleall {
     border:none;
-    background-color: black;
-    color: blue;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
 }
 .deleall:hover {
     opacity: 0.7;
@@ -72,29 +87,45 @@ html , body {
     transition: 0.6s;
 }
 .add {
-    color: blue;
+    color: #fff;
     transition: 0.5s;
     border: none;
+    outline: none;
+}
+.add:focus {
+    outline: none;
+
 }
 .add:hover{
     opacity: 0.7;
 }
 .delbt {
     padding: 8px;
-    margin: 4px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
 .delbt:hover {
     opacity: 0.7;
 }
 
 #li {
-    border: black solid;
+    background-color: transparent;
+    border: none;
     font-size:large;
     font-weight:bolder;
+    background-color: transparent;
+    border: none;
+    border-bottom: #fff solid !important;
+    color: #fff;
 }
 .editbt {
     height: 33px;   
     cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
 .editbt:hover {
     opacity: 0.7;
